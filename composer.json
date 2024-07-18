@@ -1,12 +1,12 @@
 {
-	"name": "bummzack/silverstripe-omnipay-ui",
+	"name": "moritz-sauer-13/silverstripe-omnipay-ui",
 	"description": "SilverStripe Omnipay UI Module",
 	"type": "silverstripe-vendormodule",
 	"license": "BSD-3-Clause",
 	"keywords": ["silverstripe","payment","omnipay"],
 	"require": {
-		"silverstripe/silverstripe-omnipay": "^3.0",
-        "silverstripe/admin": "^1.0"
+		"silverstripe/silverstripe-omnipay": "^4.0",
+        "silverstripe/admin": "^2"
 	},
     "require-dev": {
         "phpunit/phpunit": "^5.7"
