@@ -28,6 +28,10 @@
   width: 32px;
 }
 
+.cms .payment-dialog-button:before {
+  display: none;
+}
+
 .cms .ss-gridfield .payment-dialog-button:hover {
   background-color: #e3eaf0;
 }
