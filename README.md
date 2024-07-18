@@ -1,3 +1,5 @@
+This is a fork from bummzack/silverstripe-omnipay-ui to support SS5
+
 # silverstripe-omnipay-ui
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bummzack/silverstripe-omnipay-ui/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bummzack/silverstripe-omnipay-ui/?branch=master)
