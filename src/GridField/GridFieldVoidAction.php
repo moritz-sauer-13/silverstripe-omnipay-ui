@@ -46,9 +46,9 @@ class GridFieldVoidAction extends GridFieldPaymentAction implements GridField_Ac
             return null;
         }
 
-        Requirements::css('bummzack/silverstripe-omnipay-ui: client/dist/css/omnipay-ui-cms.css');
-        Requirements::javascript('bummzack/silverstripe-omnipay-ui: client/dist/javascript/omnipay-ui-cms.js');
-        Requirements::add_i18n_javascript('bummzack/silverstripe-omnipay-ui: client/dist/javascript/lang');
+        Requirements::css('moritz-sauer-13/silverstripe-omnipay-ui: client/dist/css/omnipay-ui-cms.css');
+        Requirements::javascript('moritz-sauer-13/silverstripe-omnipay-ui: client/dist/javascript/omnipay-ui-cms.js');
+        Requirements::add_i18n_javascript('moritz-sauer-13/silverstripe-omnipay-ui: client/dist/javascript/lang');
 
         /** @var GridField_FormAction $field */
         $field = GridField_FormAction::create(
