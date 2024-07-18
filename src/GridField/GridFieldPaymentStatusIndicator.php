@@ -27,8 +27,8 @@ class GridFieldPaymentStatusIndicator extends GridFieldPaymentAction implements 
             return null;
         }
 
-        Requirements::css('bummzack/silverstripe-omnipay-ui: client/dist/css/omnipay-ui-cms.css');
-        Requirements::javascript('bummzack/silverstripe-omnipay-ui: client/dist/javascript/omnipay-ui-cms.js');
+        Requirements::css('moritz-sauer-13/silverstripe-omnipay-ui: client/dist/css/omnipay-ui-cms.css');
+        Requirements::javascript('moritz-sauer-13/silverstripe-omnipay-ui: client/dist/javascript/omnipay-ui-cms.js');
 
         if (preg_match('/Pending(Capture|Void|Refund)/', $record->Status)) {
             return SSViewer::execute_template('PaymentPendingIndicator', ArrayData::create(array(
